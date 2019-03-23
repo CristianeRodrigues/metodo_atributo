@@ -10,8 +10,13 @@ package metodo_atributo;
  * @author Cristiane
  */
 public class A {
+    float codigoAux;
     int codigoA;
-    String nomeA;
+    int nomeA;
+    
+    public void setCodigoAux(float codigoAux){
+        this.codigoAux = codigoAux;
+    }
 
     public int getCodigoA() {
         return this.codigoA;
@@ -19,5 +24,6 @@ public class A {
 
     public void setCodigoA(int codigoA) {
         this.codigoA = codigoA;
+        System.out.println("Codigo");
     }
 }
