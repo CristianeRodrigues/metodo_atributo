@@ -13,6 +13,7 @@ public class B {
 
     int codigoB;
     String nomeB;
+    A ClassA;
 
     public int getCodigoB() {
         return this.codigoB;
@@ -20,6 +21,8 @@ public class B {
 
     public void setCodigoB(int codigoB) {
         this.codigoB = codigoB;
+        ClassA.nomeA = "Nome Classe A";
+        ClassA.setCodigoA(codigoB);
     }
     
 }
