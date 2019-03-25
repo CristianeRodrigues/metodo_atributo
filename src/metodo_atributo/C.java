@@ -12,10 +12,11 @@ package metodo_atributo;
 public class C {
     int codigoC;
     String nomeC;
-
-    public int getCodigoC() {
-        return this.codigoC;
+    
+    public void setNomeC(String nomeC){
+        this.nomeC = nomeC;
     }
+
 
     public void setCodigoA(int codigoC) {
         this.codigoC = codigoC;
