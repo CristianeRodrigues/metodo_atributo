@@ -13,12 +13,17 @@ public class B {
 
     int codigoB;
     String nomeB;
+    float codigoBAux;
     A ClassA;
 
     public int getCodigoB() {
         return this.codigoB;
     }
 
+    public void teste(){
+        ClassA.setCodigoAux(codigoBAux);
+    }
+    
     public void setCodigoB(int codigoB) {
         this.codigoB = codigoB;
         ClassA.nomeA = "Nome Classe A";
