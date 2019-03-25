@@ -13,6 +13,12 @@ public class A {
     float codigoAux;
     int codigoA;
     int nomeA;
+    C ClassC;
+    
+    
+    public void dependencia(){
+        int codigo = ClassC.getCodigoC();
+    }
     
     public float getCodigoAux(){
         return this.codigoAux;
