@@ -14,10 +14,11 @@ public class A {
     int codigoA;
     int nomeA;
     
-    public void setCodigoAux(float codigoAux){
-        this.codigoAux = codigoAux;
+    public float getCodigoAux(){
+        return this.codigoAux;
     }
-
+    
+   
     public int getCodigoA() {
         return this.codigoA;
     }
